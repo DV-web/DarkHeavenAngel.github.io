@@ -1,0 +1,333 @@
+body{
+	margin: 0;
+	background-color:#6b5182;
+	padding-top: 50px;
+
+}
+
+
+
+
+
+
+#top-menu{
+	background-color: #2e2b2b;
+	height: 100px;
+	width: 100%;
+	border-bottom: solid #000000 5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000;
+	color: #ffffff;
+	background-image: url(http://design-mania.ru/wp-content/uploads/2019/02/black-textures6.jpg);
+
+}
+
+
+
+#top-menu-left{
+	left: 0;
+	height: 100%;
+	position: absolute;
+
+}
+
+
+
+#tml-logo{
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
+
+
+#tml-logo-img{
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
+.tml-btn{
+	padding: 10px;
+	height: 30px;
+	display: inline-block;
+	left: 145px;
+	position: relative;
+	color: #beb9c9;
+	font-size: 25px;
+
+}
+
+
+
+
+#top-menu a{
+	text-decoration: none;
+
+}
+
+
+
+
+.tml-btn-vec{
+	position: absolute;
+	height: 10px;
+	top: 17px;
+	right: 17px;
+	transition-duration: 200ms;
+	transition-property: transform;
+	color: #beb9c9;
+}
+
+
+.tml-btn:hover .tml-btn-vec{
+	transform: rotate(180deg);
+}
+
+
+#tml-btn1{
+ width: 130px;
+}
+
+
+#tml-btn2{
+ width: 90px;
+}
+
+
+#tml-btn3{
+ width: 110px;
+}
+
+
+#tml-btn4{
+ width: 115px;
+}
+
+
+#tml-btn1-menu{
+	background-color: black;
+	position: absolute;
+	left: 0;
+	color:#beb9c9;
+	top:100%;
+	width: 250px;
+	height: 0;
+	overflow: hidden;
+	transition-duration: 200ms;
+	transition-property: height;
+
+}
+
+
+
+#tml-btn2-menu{
+	background-color: black;
+	position: absolute;
+	left: 0;
+	color:#beb9c9;
+	top:100%;
+	width: 250px;
+	height: 0;
+	overflow: hidden;
+	transition-duration: 200ms;
+	transition-property: height; 
+
+}
+
+
+
+
+
+#tml-btn3-menu{
+	background-color: black;
+	position: absolute;
+	left: 0;
+	color:#beb9c9;
+	top:100%;
+	width: 250px;
+	height: 0;
+	overflow: hidden;
+	transition-duration: 200ms;
+	transition-property: height;
+
+}
+
+
+
+
+#tml-btn4-menu{
+	background-color: black;
+	position: absolute;
+	left: 0;
+	color:#beb9c9;
+	top:100%;
+	width: 250px;
+	height: 0;
+	overflow: hidden;
+	transition-duration: 200ms;
+	transition-property: height;
+
+}
+
+.tml-btn-field{
+	padding:10px;
+	height: 30px;
+	font-size: 25px;
+}
+
+
+
+.tml-btn:hover #tml-btn1-menu{
+	height: 200px;
+}
+.tml-btn:hover #tml-btn2-menu{
+	height: 200px;
+}
+.tml-btn:hover #tml-btn3-menu{
+	height: 200px;
+}
+.tml-btn:hover #tml-btn4-menu{
+	height: 200px;
+}
+
+
+
+#top-menu-right{
+	right: 0;
+	height: 100%;
+	position: absolute;
+}
+
+
+.tmr-btn{
+	display: inline-block;
+	color: #beb9c9;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+
+.tmr-btn:hover{
+	color: #fff;
+}
+
+
+#tmr-btn3{
+	padding: 10px;
+}
+
+
+#tmr-btn3:hover{
+	background-color: rgba(64,64,64,0.5);
+}
+
+
+
+.pretty-btn{
+	border: solid rgba(179,163,201,0.5);
+	box-shadow: 0 0 10px rgba(179,163,201,0.5) inset;
+	height: 30px;
+	font-size: 25; 
+	padding: 9px; 
+	color: rgb(192,192,192);
+	transition-duration: 200ms; 
+	transition-property: color text-shadow;
+	position: relative;
+}
+
+
+
+.pretty-btn:hover{
+	color: rgb(192,192,192);
+	text-shadow: 0 0 10px rgb(192,192,192);
+	text-align: center;
+}
+
+
+
+
+.pretty-btn-line{
+	height: 2px;
+	background-color: rgb(155,128,255);
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+	width: 0;
+	transition-duration: 200ms;
+	transition-property: width;
+}
+
+
+.pretty-btn-line-top{
+	top: 0;
+
+}
+
+
+
+.pretty-btn-line-bottom{
+	bottom: 0;
+}
+
+.pretty-btn:hover .pretty-btn-line{
+	width: 100%;
+	box-shadow: 0 0 10px rgb(155,128,255);
+}
+
+
+
+#box1{
+	width: 100%;
+	position: relative;
+}
+
+
+
+#box1-img{
+	width: 100%;
+}
+
+
+
+#box1-title{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	width: 350px;
+	padding-top: 350px; 
+	padding-bottom: 50px;
+	font-size: 30px;
+	height: 35px;
+	color:  #beb9c9;
+}
+
+
+#box-title a{
+	text-decoration: none;
+}
+
+
+#box1-title-img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+
+
+
+#box-title-btn{
+	display: inline-block;
+	width: 150px;
+}
