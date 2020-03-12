@@ -331,3 +331,13 @@ body{
 	display: inline-block;
 	width: 150px;
 }
+
+
+
+
+@media(min-width: 850px){
+	#box6-more{
+		width: 100%;
+		margin: 0;
+	}
+}
